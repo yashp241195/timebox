@@ -1,0 +1,2 @@
+echo "input $1" >> timetrack.txt
+cat timetrack.txt
