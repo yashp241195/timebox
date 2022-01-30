@@ -1,2 +1,3 @@
-echo "input $1" >> timetrack.txt
-cat timetrack.txt
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+echo "$dt $1" >> /home/yash/Documents/myapps/timebox/timetrack.txt
+cat /home/yash/Documents/myapps/timebox/timetrack.txt
